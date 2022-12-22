@@ -1,0 +1,23 @@
+{
+    "name": "jpalala/simple-microservice-php",
+    "description": "none",
+    "type": "project",
+    "require": {
+        "voku/simple-active-record": "1.0",
+        "vlucas/phpdotenv": "^5.5.0",
+        "katzgrau/klogger": "dev-master"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Dev\\Simpleauthservice\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Joe Palala",
+            "email": "jose.palala@live.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
